@@ -13,15 +13,26 @@
    
 }
 .navbar{
-    background-color: black;
-    opacity: 0.3;
+    background-color: rgba(0, 0, 0, 0.432);
+    /* opacity: 0.3; */
     color: white;
     width: 20vw;
     padding: 15px;
     height: 100vh;
     border: yellow solid 2px;
+    z-index: 0;
+    position: relative;
 
    
+}
+.img{
+    z-index: 1;
+    
+   
+}
+.img img{
+    height: 116px;
+    
 }
 .navbar ul li{
     padding:10px;
